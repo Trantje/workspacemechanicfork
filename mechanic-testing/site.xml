@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Workspace Mechanic Update Site (testing)" url="http://code.google.com/a/eclipselabs.org/p/workspacemechanic">
+      Update site for interim testing releases of the Workspace Mechanic for Eclipse
+   </description>
+   <feature url="features/com.google.eclipse.mechanic_0.0.0.jar" id="com.google.eclipse.mechanic" version="0.0.0">
+      <category name="com.google.eclipse.mechanic"/>
+   </feature>
+   <category-def name="com.google.eclipse.mechanic" label="Workspace Mechanic for Eclipse (Test releases)"/>
+</site>

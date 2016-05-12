@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='com.google.eclipse.mechanic' version='0.4.1'>
+    <properties size='6'>
+      <property name='artifact.size' value='2006859'/>
+      <property name='download.size' value='2006859'/>
+      <property name='download.md5' value='ffdcc3b63da6330e2ad8d3ec976e7764'/>
+      <property name='maven-groupId' value='com.google.eclipse.mechanic'/>
+      <property name='maven-artifactId' value='com.google.eclipse.mechanic'/>
+      <property name='maven-version' value='0.4.1'/>
+    </properties>
+  </artifact>
+</artifacts>
