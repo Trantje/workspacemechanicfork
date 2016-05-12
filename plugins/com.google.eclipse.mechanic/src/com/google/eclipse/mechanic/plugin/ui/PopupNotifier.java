@@ -91,7 +91,8 @@ public class PopupNotifier {
           case FAILED:
             if (mechanicPreferences.isShowPopup()) {
               if (showOnFailure) {
-                showPopup();
+                autoApply();
+                //showPopup();
               }
               showOnFailure = false;
             } else {
@@ -128,10 +129,12 @@ public class PopupNotifier {
     service.removeTaskStatusChangeListener(statusChangeListener);
   }
 
+  private void autoApply(){
+    RepairDecisionProvider rdp = new AutoChoiceDecisionProvider();
+    service.getRepairManager(rdp).run();
+  }
+  
   private void showPopup() {
-//    RepairDecisionProvider rdp = new AutoChoiceDecisionProvider();
-//    service.getRepairManager(rdp).run();
-//    return;
     if (visible) {
       return;
     }
